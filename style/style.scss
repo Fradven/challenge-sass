@@ -116,3 +116,13 @@ h3 {
     @extend %bpc;
     background-color: $orange;
 }
+
+.advantages {
+
+    @for $i from 1 through 6 {
+    li:nth-child(#{$i}) {
+        background-color: darken($white, $i * 5%);
+        color: lighten($black, $i * 5%);
+        }
+    }
+}

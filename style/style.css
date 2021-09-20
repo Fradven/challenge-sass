@@ -113,4 +113,34 @@ h3 {
 .warning {
   background-color: orange;
 }
+
+.advantages li:nth-child(1) {
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+}
+
+.advantages li:nth-child(2) {
+  background-color: #e6e6e6;
+  color: #1a1a1a;
+}
+
+.advantages li:nth-child(3) {
+  background-color: #d9d9d9;
+  color: #262626;
+}
+
+.advantages li:nth-child(4) {
+  background-color: #cccccc;
+  color: #333333;
+}
+
+.advantages li:nth-child(5) {
+  background-color: #bfbfbf;
+  color: #404040;
+}
+
+.advantages li:nth-child(6) {
+  background-color: #b3b3b3;
+  color: #4d4d4d;
+}
 /*# sourceMappingURL=style.css.map */
